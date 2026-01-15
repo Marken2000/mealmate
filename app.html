@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="MealMate – Smart Meal Planner prototype website" />
+  <title>MealMate | Application Info</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="MealMate Home">
+      <img class="brand-mark" src="assets/logo.svg" alt="MealMate logo" />
+      <div class="brand-stack">
+        <div class="brand-title">MealMate</div>
+        <div class="brand-sub">Smart Meal Planner Prototype</div>
+      </div>
+    </a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+<li><a href="about.html">About You</a></li>
+<li><a href="app.html" aria-current="page">App Info</a></li>
+<li><a href="marketing.html">Marketing</a></li>
+<li><a href="user-guide.html">User Guide</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="card hero-card">
+      <div class="kicker"><strong>Application Info</strong> • Prototype details</div>
+      <h1>MealMate Application Overview</h1>
+      <p class="lead">
+        MealMate is a smart meal planning application concept that combines meal scheduling, grocery list automation,
+        and nutrition awareness in one workflow. The goal is to reduce time spent planning, minimize food waste,
+        and help users make informed choices.
+      </p>
+
+      <div class="card" style="margin-top:16px;padding:16px">
+        <h2 style="margin:0 0 8px;font-size:18px">Core features</h2>
+        <ul class="list">
+          <li><b>Meal Planner:</b> build weekly plans using saved meals and preferences.</li>
+          <li><b>Auto Grocery List:</b> ingredients compile into one list by category.</li>
+          <li><b>Nutrition Signals:</b> quick view of calories/macros to support goals.</li>
+          <li><b>Cloud Sync Ready:</b> access plans across devices (future expansion).</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card preview">
+      <h2>Mini demo (estimate list size)</h2>
+      <div class="panel">
+        <label class="mini" for="servings"><b>Household size (servings)</b></label><br/>
+        <input id="servings" type="number" min="1" value="2" style="margin-top:6px;width:100%;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--text)">
+        <div style="height:12px"></div>
+        <label class="mini" for="meals"><b>Meals planned this week</b></label><br/>
+        <input id="meals" type="number" min="1" value="5" style="margin-top:6px;width:100%;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--text)">
+        <div style="height:14px"></div>
+        <div class="row">
+          <div>
+            <div style="font-weight:800;font-size:18px">Estimated grocery items</div>
+            <div class="mini">Prototype calculation (for demonstration)</div>
+          </div>
+          <div class="chip"><span id="itemsOut">0</span> items</div>
+        </div>
+      </div>
+
+      <div style="height:12px"></div>
+      <div class="panel">
+        <h2 style="margin:0 0 8px;font-size:16px;color:var(--muted)">System concept</h2>
+        <div class="mini">
+          Mobile app (Android/iOS) + cloud database + optional web portal for planning and printing lists.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid3">
+    <div class="card kpi">
+      <strong>10–15 min</strong>
+      <div>Typical weekly planning time goal</div>
+    </div>
+    <div class="card kpi">
+      <strong>1 list</strong>
+      <div>Consolidated list replaces multiple notes</div>
+    </div>
+    <div class="card kpi">
+      <strong>Less waste</strong>
+      <div>Use what you buy—buy what you use</div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="notice">
+      <div class="icon" aria-hidden="true">✓</div>
+      <div>
+        <b>Signature Assignment Submission</b><br/>
+        This multi-page site includes: Home, About You, Application Info, Marketing, and User Guide pages.
+        <div class="small">Last updated: <span id="updated"></span></div>
+      </div>
+    </div>
+    <hr/>
+    <div class="small">© 2026 MealMate Prototype. Built with HTML/CSS/JS for course submission.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
