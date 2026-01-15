@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MealMate - User Guide</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-flex">
+      <a class="brand" href="index.html">MealMate</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About You</a>
+        <a href="prototype.html">App Prototype</a>
+        <a href="marketing.html">Marketing</a>
+        <a class="active" href="userguide.html">User Guide</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h1>User Guide</h1>
+      <p class="lead">
+        This guide explains how a user would use the MealMate app prototype from setup through weekly shopping.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <h2>Getting Started</h2>
+          <ol class="steps">
+            <li>Create an account (email or phone).</li>
+            <li>Set household size and dietary preferences.</li>
+            <li>Select budget goals (optional).</li>
+          </ol>
+        </article>
+
+        <article class="card">
+          <h2>Create a Weekly Meal Plan</h2>
+          <ol class="steps">
+            <li>Choose meals from suggested recipes or add your own.</li>
+            <li>Assign meals to days (Mon–Sun).</li>
+            <li>Use “Swap” to replace meals quickly.</li>
+          </ol>
+        </article>
+
+        <article class="card">
+          <h2>Generate a Shopping List</h2>
+          <ol class="steps">
+            <li>Tap “Build List.”</li>
+            <li>Review categories (produce, meat, dairy, etc.).</li>
+            <li>Remove items you already have in your pantry.</li>
+          </ol>
+        </article>
+      </div>
+
+      <div class="section">
+        <h2>Safety / Best Practices</h2>
+        <ul class="checklist">
+          <li>Always check expiration dates and food storage guidelines.</li>
+          <li>Use safe cooking temperatures for meats.</li>
+          <li>Update pantry items after shopping to keep lists accurate.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>FAQ</h2>
+        <details class="faq">
+          <summary>Can I add my own recipes?</summary>
+          <p>Yes. You can add custom meals and ingredients so the shopping list stays accurate.</p>
+        </details>
+        <details class="faq">
+          <summary>Does MealMate work for meal prep?</summary>
+          <p>Yes. You can plan bulk cooking and split portions across multiple days.</p>
+        </details>
+        <details class="faq">
+          <summary>What if I’m on a tight budget?</summary>
+          <p>The prototype includes a budget estimate concept and cheaper ingredient swap ideas.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-flex">
+      <p>© <span id="year"></span> MealMate Prototype</p>
+      <p class="muted">User documentation for course final.</p>
+    </div>
+  </footer>
+</body>
+</html>
